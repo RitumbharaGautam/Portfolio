@@ -24,7 +24,7 @@ export const Contact = () => {
     <section className="connect" id="connect">
       <div className="contact">
         <h2>Get in Touch</h2>
-        <span>Fill the form below for any work opportunities.</span>
+        <p>Please! fill the form below for any work opportunities.</p>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <input
             type="text"

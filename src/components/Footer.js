@@ -1,11 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap"
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import colorSharp from "../assets/img/color-sharp2.png";
+
 
 
 export const Footer = () => {
-
+  let date = new Date();
+  let year = date.getFullYear();
   return (
     <section className="footer" id="footer">
       
@@ -13,7 +14,7 @@ export const Footer = () => {
         <Container>
         <Row className="align-item-center">
           <Col sm={6}>
-            Created by Ritumbhara Gautam
+           <h3> Created by Ritumbhara Gautam</h3>
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -25,12 +26,11 @@ export const Footer = () => {
                 target="_blank" 
                 rel="noopener noreferrer"><img src={navIcon2} alt="Github icon"/></a>
             </div>
-            <p>CopyRight 2025. All Right Reserved</p>
+            <p>Copyright © {year} RG</p>
           </Col>
         </Row>
       </Container>
     </footer>
-     <img className='background-image-left' src={colorSharp} alt="background"/>
     </section>
   )
 }

@@ -1,7 +1,6 @@
 import { Container, Row, Col} from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png";
 import css from "../assets/img/css.png";
 import react from "../assets/img/react.png";
 import node from "../assets/img/node.png";
@@ -9,6 +8,7 @@ import html from "../assets/img/html.png";
 import java from "../assets/img/java.png";
 import javascript from "../assets/img/javascript.png";
 import sql from "../assets/img/sql.png";
+import { Education } from './Education';
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -31,13 +31,13 @@ export const Skills = () => {
   };
 
   return (
-    <section className='skills' id='skills'>
+    <section className="skill">
       <Container>
         <Row>
           <Col >
             <div className="skill-bx">
               <h2>
-                Skills
+                Professional Skillset
               </h2>
               <p>Technologies I Have Learned During My Web Development Journey</p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
@@ -74,7 +74,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-image-left' src={colorSharp} alt='background'/>
+      <Education/>
     </section>
   )
 }
