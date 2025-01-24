@@ -15,7 +15,6 @@ export const Projects = () => {
       description: "Ecommerce for pets",
       imgUrl: project1,
       desclg:"E-Petopia is an online pet shop offering a variety of pet products and services. Developed as a college project, it features seamless navigation, secure transactions, and an engaging shopping experience for pet lovers.",
-      demoUrl:"",
       projectHref: "https://github.com/RitumbharaGautam/E-petopia",
     },
     {
@@ -23,7 +22,6 @@ export const Projects = () => {
       description: "News Reading app",
       imgUrl: project2,
       desclg:"NewsMonkey is a news reading app built with React and the News API, delivering real-time news updates. It provides users with easy access to the latest headlines and articles from various sources.",
-      demoUrl:"",
       projectHref: "https://github.com/RitumbharaGautam/NewsMonkey",
     },
     {
@@ -31,7 +29,6 @@ export const Projects = () => {
       description: "Create and share blogs easily.",
       imgUrl: project3,
       desclg:"BlogSphere is a blog writing web application built with Node.js and Express.js. It allows users to create, manage, and share blog posts, providing a seamless and interactive platform for content creation.",
-      demoUrl:"",
       projectHref: "https://github.com/RitumbharaGautam/BlogSphere",
     },
   ];
