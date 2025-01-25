@@ -86,9 +86,6 @@ export const Projects = () => {
               className={
                 isVisible ? "animate__animated animate__slideInUp" : "" }>
               <Row>
-                {/* {projects.map((project, index) => {
-                  return <ProjectCard key={index} {...project} />;
-                })} */}
                  {filteredProjects.length > 0 ? (
                   filteredProjects.map((project, index) => {
                     return <ProjectCard key={index} {...project} />;
